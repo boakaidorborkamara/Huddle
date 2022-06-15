@@ -2,3 +2,36 @@
     margin: 0px;
     padding: 0px;
 }
+
+
+/* header  */
+
+header {
+    background-color: blueviolet;
+    padding: 40px 60px 40px 60px;
+}
+
+header div {
+    width: 45%;
+    display: inline-block;
+    margin: auto;
+}
+
+header button {
+    padding: 15px 90px 15px 90px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+}
+
+
+/* header div:nth-child(1) {
+    float: left;
+    clear: both;
+} */
+
+header div:nth-child(2) {
+    float: right;
+    clear: both;
+    text-align: right;
+}
