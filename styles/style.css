@@ -3,11 +3,15 @@
     padding: 0px;
 }
 
+body {
+    font-size: 18px
+}
+
 
 /* header  */
 
 header {
-    background-color: blueviolet;
+    background-color: hsl(193, 100%, 96%);
     padding: 40px 60px 40px 60px;
 }
 
@@ -34,4 +38,24 @@ header div:nth-child(2) {
     float: right;
     clear: both;
     text-align: right;
+}
+
+
+/* main  */
+
+main {
+    padding: 40px 60px 40px 60px;
+}
+
+#hero-section {
+    background-color: rebeccapurple;
+}
+
+#hero-section img {
+    /* width: 300px; */
+}
+
+#hero-section div {
+    width: 45%;
+    display: inline-block;
 }
