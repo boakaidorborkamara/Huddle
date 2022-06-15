@@ -49,13 +49,25 @@ main {
 
 #hero-section {
     background-color: rebeccapurple;
+    overflow: auto;
 }
 
-#hero-section img {
-    /* width: 300px; */
-}
 
-#hero-section div {
-    width: 45%;
+/* #hero-section img {
+    width: 40%;
+} */
+
+#hero-section-text {
+    width: 49%;
     display: inline-block;
+    /* background-color: rgb(30, 97, 16); */
+    /* float: left; */
+    /* margin: auto; */
+}
+
+#hero-section-image {
+    float: right;
+    width: 40%;
+    /* display: inline-block; */
+    text-align: right;
 }
