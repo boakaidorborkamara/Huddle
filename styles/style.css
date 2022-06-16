@@ -87,6 +87,8 @@ header div:nth-child(2) {
     width: 60%;
     margin: 30px auto 30px auto;
     border-radius: 10px 10px 10px 10px;
+    position: relative;
+    padding: 20px;
 }
 
 #card-section .odd {
@@ -96,12 +98,14 @@ header div:nth-child(2) {
 
 #card-section .odd div {
     width: 49%;
-    background: orange;
+    /* background: orange; */
     display: inline-block;
+    position: absolute;
+    top: 30%;
 }
 
 #card-section .odd img {
-    width: 49%;
+    width: 39%;
     float: right;
 }
 
@@ -112,11 +116,13 @@ header div:nth-child(2) {
 
 #card-section .even div {
     width: 49%;
-    background: orange;
+    /* background: orange; */
     display: inline-block;
+    position: absolute;
+    top: 30%;
 }
 
 #card-section .even img {
-    width: 49%;
+    width: 39%;
     float: left;
 }
