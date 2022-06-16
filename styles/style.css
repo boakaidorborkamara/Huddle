@@ -83,6 +83,11 @@ header div:nth-child(2) {
 
 /* card section styles starts  */
 
+#card-section div {
+    width: 60%;
+    margin: 30px auto 30px auto;
+}
+
 #card-section .odd {
     background-color: rgb(51, 255, 0);
     overflow: auto;
