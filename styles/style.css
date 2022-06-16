@@ -86,6 +86,7 @@ header div:nth-child(2) {
 #card-section div {
     width: 60%;
     margin: 30px auto 30px auto;
+    border-radius: 10px 10px 10px 10px;
 }
 
 #card-section .odd {
