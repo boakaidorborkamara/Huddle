@@ -3,8 +3,15 @@
     padding: 0px;
 }
 
-body {
-    font-size: 18px
+
+/* body {
+    font-family: "https://fonts.google.com/specimen/Poppins";
+} */
+
+h1 {
+    font-weight: 600 !important;
+    background-color: red;
+    font-family: "https://fonts.google.com/specimen/Poppins";
 }
 
 
@@ -43,21 +50,18 @@ header div:nth-child(2) {
 
 /* main  */
 
-main {
+
+/* main {
     padding: 40px 60px 40px 60px;
-}
+} */
 
 #hero-section {
     background-color: rebeccapurple;
     overflow: auto;
+    padding: 40px 60px 40px 60px;
 }
 
-
-/* #hero-section img {
-    width: 40%;
-} */
-
-#hero-section-text {
+#hero-section-textbox {
     width: 49%;
     display: inline-block;
     /* background-color: rgb(30, 97, 16); */
@@ -65,9 +69,48 @@ main {
     /* margin: auto; */
 }
 
+#hero-section-textbox p {
+    font-size: 18px;
+}
+
 #hero-section-image {
     float: right;
-    width: 40%;
+    width: 49%;
     /* display: inline-block; */
     text-align: right;
+}
+
+
+/* card section styles starts  */
+
+#card-section .odd {
+    background-color: rgb(51, 255, 0);
+    overflow: auto;
+}
+
+#card-section .odd div {
+    width: 49%;
+    background: orange;
+    display: inline-block;
+}
+
+#card-section .odd img {
+    width: 49%;
+    float: right;
+}
+
+#card-section .even {
+    background-color: rgb(247, 0, 255);
+    overflow: auto;
+}
+
+#card-section .even div {
+    width: 49%;
+    background: orange;
+    display: inline-block;
+}
+
+#card-section .even img {
+    width: 49%;
+    float: left;
 }
