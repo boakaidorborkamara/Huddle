@@ -1,16 +1,21 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("https://fonts.google.com/specimen/Poppins");
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-
-/* body {
-    font-family: "https://fonts.google.com/specimen/Poppins";
-} */
+body {
+    /* font-family: "https://fonts.google.com/specimen/Poppins"; */
+    font-family: "Poppins", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 h1 {
     font-weight: 600 !important;
-    font-family: "https://fonts.google.com/specimen/Poppins";
+    /* font-family: "https://fonts.google.com/specimen/Poppins"; */
 }
 
 
@@ -71,8 +76,18 @@ header div:nth-child(2) {
     /* margin: auto; */
 }
 
+#hero-section-textbox h1 {
+    margin-bottom: 20px;
+}
+
 #hero-section-textbox p {
     font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#hero-section-textbox button {
+    padding: 15px 20px 15px 20px;
+    border-radius: 25%;
 }
 
 #hero-section-image {
