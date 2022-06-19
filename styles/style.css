@@ -70,7 +70,7 @@ header div:nth-child(2) {
     width: 49%;
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 20%;
     /* background-color: rgb(30, 97, 16); */
     /* float: left; */
     /* margin: auto; */
@@ -78,16 +78,24 @@ header div:nth-child(2) {
 
 #hero-section-textbox h1 {
     margin-bottom: 20px;
+    font-size: 2.5em;
+    font-weight: 700;
 }
 
 #hero-section-textbox p {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
+    line-height: 30px;
 }
 
 #hero-section-textbox button {
-    padding: 15px 20px 15px 20px;
+    padding: 15px 30px 15px 30px;
     border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
 
 #hero-section-image {
@@ -110,14 +118,15 @@ header div:nth-child(2) {
 
 #card-section .odd {
     overflow: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
 }
 
 #card-section .odd div {
     width: 49%;
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 #card-section .odd img {
@@ -127,14 +136,14 @@ header div:nth-child(2) {
 
 #card-section .even {
     overflow: auto;
-    border: 1px solid black;
+    box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
 }
 
 #card-section .even div {
     width: 49%;
     display: inline-block;
     position: absolute;
-    top: 30%;
+    top: 20%;
 }
 
 #card-section .even img {
