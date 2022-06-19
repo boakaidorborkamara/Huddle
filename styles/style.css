@@ -108,6 +108,11 @@ header div:nth-child(2) {
 
 /* card section styles starts  */
 
+
+/* #card-section {
+    margin-bottom: 200px;
+} */
+
 #card-section div {
     width: 60%;
     margin: 30px auto 30px auto;
@@ -151,13 +156,43 @@ header div:nth-child(2) {
     float: left;
 }
 
+#cta-card {
+    box-shadow: 1px 1px 5px hsl(208, 11%, 55%);
+    width: 40%;
+    border-radius: 15px;
+    margin: 50px auto 50px auto;
+    text-align: center;
+    padding: 50px;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    left: 25%;
+    /* top: 50px; */
+}
+
+#cta-card h2 {
+    margin-bottom: 20px;
+}
+
+#cta-card button {
+    padding: 15px 30px 15px 30px;
+    border-radius: 25px;
+    background-color: hsl(322, 100%, 66%);
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
 
 /* footer styling starts  */
 
 footer {
     background-color: black;
     color: white;
-    padding: 100px 60px 100px 60px;
+    padding: 200px 60px 100px 60px;
+    z-index: -1;
+    margin-top: 150px;
 }
 
 footer img {
